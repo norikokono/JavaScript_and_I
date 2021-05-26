@@ -1,0 +1,250 @@
+.App {
+    text-align: center;
+  }
+  
+  *{
+    text-align: center;
+  }
+  
+  /* canvas {
+    background: #111111;
+    width: 90%;
+    margin-left: 16%;  
+    filter: blur(0.1rem);
+  } */
+  
+  body {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  
+  }
+  
+  nav {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  }
+  
+  pre{
+    overflow: hidden;
+  }
+
+
+  /* FizzBuzz grid */
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 530px 530px 530px;
+    grid-auto-rows: minmax(80px, auto);
+    grid-gap: 20px;
+    padding: 10px;
+    margin-left: 260px;;
+    color:rgb(21, 22, 22);
+  }
+  
+  .wrapper > div {
+    opacity: 0.6;
+    transition: width 3s, height 3s, background-color 3s, transform 3s;
+  }
+  
+  .wrapper > div:hover { 
+    transform: rotate(180deg);
+  }
+
+  
+  .one {
+    background-color: rgb(37, 167, 167);
+    padding-top: 20px;
+  }
+  
+  .two {
+    background-color: rgb(94, 201, 169);
+    padding-top: 30px;
+  }
+  
+  .three {
+    background-color: rgb(49, 223, 214);
+    padding-top: 30px;
+  }
+  
+  .four {
+    background-color: rgb(82, 224, 217);
+  }
+  
+  .five {
+    background-color: rgb(80, 235, 196);
+    padding-top: 20px;
+  }
+  
+  .six {
+    background-color: rgb(88, 219, 236);
+    padding-top: 10%;
+  }
+  
+  /* -------------------------------- */
+  
+  /* bubbles animation fizzBuzz */
+  .bubbles{
+    z-index:0;
+    overflow:hidden;
+    top:0;
+    left:0;
+  }
+  .bubble{
+    position: absolute;
+    bottom:-100px;
+    width:40px;
+    height: 40px;
+    background:#f1f1f1;
+    border-radius:50%;
+    opacity:0.5;
+    animation: rise 10s infinite ease-in;
+  }
+  .bubble:nth-child(1){
+    width:40px;
+    height:40px;
+    left:10%;
+    animation-duration:8s;
+  }
+  .bubble:nth-child(2){
+    width:20px;
+    height:20px;
+    left:20%;
+    animation-duration:5s;
+    animation-delay:1s;
+  }
+  .bubble:nth-child(3){
+    width:50px;
+    height:50px;
+    left:35%;
+    animation-duration:7s;
+    animation-delay:2s;
+  }
+  .bubble:nth-child(4){
+    width:80px;
+    height:80px;
+    left:50%;
+    animation-duration:11s;
+    animation-delay:0s;
+  }
+  .bubble:nth-child(5){
+    width:35px;
+    height:35px;
+    left:55%;
+    animation-duration:6s;
+    animation-delay:1s;
+  }
+  .bubble:nth-child(6){
+    width:45px;
+    height:45px;
+    left:65%;
+    animation-duration:8s;
+    animation-delay:3s;
+  }
+  .bubble:nth-child(7){
+    width:90px;
+    height:90px;
+    left:70%;
+    animation-duration:12s;
+    animation-delay:2s;
+  }
+  .bubble:nth-child(8){
+    width:25px;
+    height:25px;
+    left:80%;
+    animation-duration:6s;
+    animation-delay:2s;
+  }
+  .bubble:nth-child(9){
+    width:15px;
+    height:15px;
+    left:70%;
+    animation-duration:5s;
+    animation-delay:1s;
+  }
+  .bubble:nth-child(10){
+    width:90px;
+    height:90px;
+    left:25%;
+    animation-duration:10s;
+    animation-delay:4s;
+  }
+  @keyframes rise{
+    0%{
+      bottom:-100px;
+      transform:translateX(0);
+    }
+    50%{
+      transform:translate(100px);
+    }
+    100%{
+      bottom:1080px;
+      transform:translateX(-200px);
+    }
+  }
+  
+  /* glowing-text effect w3schools */
+  .glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  
+  /* The text-decoration property is mostly used to remove underlines from links: */
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+  
+  /* keyframe text animation */
+  h1, p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      width: 150%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  /* HomePage text h1 and p */
+  .two_color_text {
+      font-size: 72px;
+      background: -webkit-linear-gradient(rgb(4, 219, 235), rgb(255, 136, 0));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  
+  

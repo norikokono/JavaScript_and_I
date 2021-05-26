@@ -1,0 +1,74 @@
+.dark {
+  background: black;
+}
+.dark h4 {
+  color: white;
+}
+
+body#dark_mode {
+  height: 2000px; 
+  padding: 40px;
+}
+
+.dark_h2 {
+  color:rgb(238, 165, 81);
+  text-shadow: rgb(36, 137, 231) 1px 0 10px;
+}
+
+.dark_mode_button {
+  background: linear-gradient(45deg, rgb(209, 146, 51), rgb(108, 177, 223));
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+  margin-top:20px;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:aliceblue;
+  border: none;
+}
+
+
+  /*grid*/
+  .wrapper_7 {
+    display: grid;
+    grid-template-columns: 750px 750px;
+    grid-auto-rows: minmax(80px, auto);
+    grid-gap: 30px;
+    padding: 30px;
+    margin-left: 280px;
+    font-size: 23px;
+  }
+
+  .wrapper_7 > div {
+    opacity: 0.6;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+  }
+
+  .wrapper_7 > div:hover { 
+    opacity: 1;
+  }
+
+  pre {
+    text-align: left;
+  }
+
+  div.d_one {
+    background: radial-gradient(closest-side, #f3b48a, #ebf8e1, #7bbbd4);;
+    padding-top: 100px;
+  }
+  
+  div.d_two {
+    background: radial-gradient(rgb(236, 166, 75) 10px, rgb(240, 240, 61) 30%, #6fc6db 50%);
+    padding-top: 80px;
+  }
+
+  div.d_three {
+    background: radial-gradient(ellipse closest-side, rgb(214, 109, 218), yellow 10%, #89e0e0 50%, beige);
+    padding-top: 30px;
+  }
+   
+  div.d_four {
+    background: radial-gradient(at 0% 30%, rgb(226, 134, 203) 10px, rgb(230, 230, 62) 30%, #8bdee9 50%);
+    padding-top: 80px;
+  }
+

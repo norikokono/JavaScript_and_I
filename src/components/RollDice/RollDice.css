@@ -1,0 +1,70 @@
+.RollDice{
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+  }
+    
+  /* Shows each dice in one row */
+  .RollDice-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  /* Stylling rolldice button */
+  .RollDice button {
+    width:15em;
+    padding:1.5em;
+    border: 0px;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(125, 231, 245);
+    margin-top: 1em;
+    align-self: center;
+  }
+    
+  /* Setting hover effect on button */
+  .RollDice button:hover{
+    cursor: pointer;
+  }
+    
+  .RollDice-rolling{
+    border: 0px;
+    border-radius: 10px;
+    background-color:rgb(119, 174, 190) !important;
+    opacity:0.7
+  }
+
+
+  /*grid*/
+  .wrapper_6 {
+    display: grid;
+    grid-template-columns: 800px 720px;
+    grid-auto-rows: minmax(80px, auto);
+    grid-gap: 30px;
+    padding: 30px;
+    margin-left: 300px;
+    font-size: 23px;
+  }
+
+  .wrapper_6 > div {
+    opacity: 0.6;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+  }
+
+  .wrapper_6 > div:hover { 
+    opacity: 1;
+  }
+
+  pre {
+    text-align: left;
+  }
+
+  div.r_one {
+    background-image: radial-gradient(rgb(245, 248, 88), rgb(243, 195, 64), rgb(80, 204, 235));
+    padding-top: 40px;
+  }
+  
+  div.r_two {
+    background-image: radial-gradient(circle, rgb(235, 232, 79), rgb(235, 181, 64), rgb(101, 202, 233));
+    padding-top: 80px;
+  }

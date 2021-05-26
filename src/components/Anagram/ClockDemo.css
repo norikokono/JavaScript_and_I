@@ -1,0 +1,69 @@
+body.clock {
+background-image: url("https://cdn.pixabay.com/photo/2015/08/04/09/00/backdrop-874452_960_720.jpg");
+font-family: 'Krona One', sans-serif;
+}
+.clk {  
+  padding-left: 500px;  
+  padding: 30px;
+  background: black;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  -webkit-animation: clk 1s ease-in-out infinite alternate;
+  -moz-animation: clk 1s ease-in-out infinite alternate;
+  animation: clk 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes clk {
+  from {
+    text-shadow: 0 0 10px whitesmoke, 0 0 20px whitesmoke, 0 0 30px skyblue, 0 0 40px skyblue, 0 0 50px skyblue, 0 0 60px skyblue, 0 0 70px skyblue;
+  }
+  to {
+    text-shadow: 0 0 20px whitesmoke, 0 0 30px lightblue, 0 0 40px lightblue, 0 0 50px lightblue, 0 0 60px lightblue, 0 0 70px lightblue, 0 0 80px lightblue;
+  }
+}
+
+div.rotate {
+  width: 350px;
+  height: 150px;
+  text-align: center;
+  text-shadow: 2px 2px 5px whitesmoke;
+  margin-left: 400px;
+  padding-top: 40px;
+  background: linear-gradient(rgb(200, 221, 221), rgb(28, 30, 31));
+  -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(20deg);
+}
+
+div.wrapper_5 { 
+  display: grid;
+  grid-template-columns: 920px 630px;
+  grid-auto-rows: minmax(80px, auto);
+  grid-gap: 20px;
+  padding: 10px;
+  margin-left: 300px;
+  font-weight: bold;
+  font-size: 22px;
+  text-shadow: 0.5px 0.5px rgb(58, 109, 141);
+}
+
+div.wrapper_5 > div { 
+  opacity: 0.7;
+}
+
+div.wrapper_5 > div:hover {
+color: rgb(240, 232, 232);
+font-size: 25px;
+}
+
+/* simple-linear */
+div.c_one {
+  background: linear-gradient(rgb(246, 248, 248), rgb(67, 67, 70));
+  padding-top: 40px;
+}
+
+/* horizontal-gradient */
+div.c_two {
+  background: linear-gradient(to right,rgb(252, 253, 253), rgb(100, 100, 99));
+  padding-top: 80px;
+}

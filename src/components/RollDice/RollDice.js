@@ -1,6 +1,6 @@
 // https://www.geeksforgeeks.org/how-to-create-a-dice-rolling-app-using-reactjs/
 
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 import './RollDice.css'
 import Die from './Die'
 

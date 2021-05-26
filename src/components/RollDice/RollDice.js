@@ -48,7 +48,7 @@ class RollDice extends Component{
                       'RollDice-rolling' : ''
     const {die1, die2, rolling} = this.state
     return(
-      <Fragment class="dice_body">
+      <die class="dice_body">
         <h2 style={{marginTop: 40, color: "Aqua"}}>Math.random()</h2>
         <div className='RollDice'>
           <div className='RollDice-container'>
@@ -105,7 +105,7 @@ class RollDice extends Component{
               `}</pre>
             </div>
           </div>
-      </Fragment>
+      </die>
     )
   }
 }

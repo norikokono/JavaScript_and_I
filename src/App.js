@@ -29,7 +29,7 @@ class App extends Component {
               <Route path="/palindrome" component={Palindrome}/> 
               <Route path="/fibonacci_sequence" component={FibonacciSequence}/>
               <Route path="/find_the_vowels" component={BoxContainer}/>
-              <Route path="/clock" component={ClockDemo}/>
+              <Route path="/clock" component={ClockDemo}/> 
               <Route path="/roll_dice" component={RollDice}/> 
               <Route path="/dark_mode" component={DarkMode}/> 
               <Route path="/todo" component={ToDo}/>

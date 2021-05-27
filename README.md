@@ -7,7 +7,8 @@ This is my React and JavaScript practice project. 🦒
 ![screencapture-localhost-3000-fibonacci-sequence-2021-05-26-20_28_45](https://user-images.githubusercontent.com/55174696/119764969-2fee7e00-be67-11eb-9e9b-67e91ac3d653.png)
 ![screencapture-localhost-3000-clock-2021-05-26-20_29_31](https://user-images.githubusercontent.com/55174696/119764980-341a9b80-be67-11eb-82c5-0f03a5a55fe0.png)
 ![screencapture-localhost-3000-dark-mode-2021-05-26-20_31_39](https://user-images.githubusercontent.com/55174696/119764993-3846b900-be67-11eb-9b27-9db36f983144.png)
-
+![screencapture-react-practice-javascript-and-i-netlify-app-find-the-vowels-2021-05-27-00_28_28](https://user-images.githubusercontent.com/55174696/119784388-ffb4d880-be82-11eb-8ac9-60fdfc274ec0.png)
+![screencapture-localhost-3000-roll-dice-2021-05-27-00_30_02](https://user-images.githubusercontent.com/55174696/119784403-03e0f600-be83-11eb-9fe5-eab63c18ffaf.png)
 
 
 # Getting Started with Create React App

@@ -5,7 +5,7 @@ import './FizzBuzz.css';
 const FizzBuzz = () => {
     return (
         
-< React.Fragment>
+<div>
             <br />
             <h1 class="glow">FizzBuzz<span role="img" aria-label="tropical drink">🍹</span></h1>
             <div class="wrapper">
@@ -142,7 +142,7 @@ const FizzBuzz = () => {
         <div class="bubble"></div>        
     </div>
 </section>
-</React.Fragment>
+</div>
 
     );
 }

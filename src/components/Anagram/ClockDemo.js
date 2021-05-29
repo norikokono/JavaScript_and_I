@@ -1,14 +1,14 @@
 import React, { Component } from 'react'  
-import Clock from 'react-live-clock';  
+// import Clock from 'react-live-clock';  
 import './ClockDemo.css';  
 
-export class ClockLiveDemo extends Component {  
+export class ClockLiveDemo extends Component {   
   render() {  
       return (  
-          <React.Fragment>   
+          <div>   
             <body class="clock">
                 <div className="clk">  
-                  <Clock format={'HH:mm:ss'} interval={1000} ticking={true} />  
+                  {/* <Clock format={"HH:mm:ss"} interval={1000} ticking={true} />  */}
                 </div>  
 
                 <div class="rotate">
@@ -68,7 +68,7 @@ export class ClockLiveDemo extends Component {
                 </div>
               </div>
             </body>
-          </React.Fragment>  
+          </div>  
     )  
   }  
 }  

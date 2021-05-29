@@ -7,6 +7,7 @@ import Palindrome from './components/Palindrome/Palindrome';
 import FibonacciSequence from './components/FibonacciSequence/FibonacciSequence';
 import BoxContainer from './components/FindTheVowels/BoxContainer';
 import ClockDemo from './components/Anagram/ClockDemo';
+import MemoryGame from './components/MemoryGame/MemoryGame';
 import RollDice from './components/RollDice/RollDice';
 import DarkMode from './components/DarkMode/DarkMode';
 import ToDo from './components/ToDo/ToDo';
@@ -30,6 +31,7 @@ class App extends Component {
               <Route path="/fibonacci_sequence" component={FibonacciSequence}/>
               <Route path="/find_the_vowels" component={BoxContainer}/>
               <Route path="/clock" component={ClockDemo}/> 
+              <Route path="/memory_game" component={MemoryGame}/>
               <Route path="/roll_dice" component={RollDice}/> 
               <Route path="/dark_mode" component={DarkMode}/> 
               <Route path="/todo" component={ToDo}/>

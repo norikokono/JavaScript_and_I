@@ -181,6 +181,7 @@
   }
   
   /* glowing-text effect w3schools */
+ 
   .glow {
     font-size: 80px;
     color: #fff;
@@ -197,7 +198,7 @@
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
   }
-  
+
   /* The text-decoration property is mostly used to remove underlines from links: */
   a:link {
     text-decoration: none;

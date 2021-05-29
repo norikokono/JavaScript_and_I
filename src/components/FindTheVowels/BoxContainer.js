@@ -51,7 +51,7 @@ class BoxContainer extends Component{
     return(
       <React.Fragment>
         <h4>Find The Vowels<span class="vertical">Find The Vowels</span><span class="vertical">Find The Vowels</span></h4>
-        <h5>Random RGB Color Generator<span style={{fontSize: 30}}><b>  &#9759;</b></span><span role="img" aria-label="computer mouse"> &#128433;</span>Please Click!</h5>
+        <h5>Random RGB Color Generator<span style={{fontSize: 30}}><b>  &#9759;</b></span> Please Click!</h5>
         <div className='BoxContainer'>
           {this.state.colors.map(color => (
             

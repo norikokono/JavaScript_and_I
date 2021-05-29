@@ -5,6 +5,7 @@ import logo from './logo192.png';
 import './ToDo.css';
 import Switch from "./Switch";
 import "./Switch.css";
+import LikeDislike from './LikeDislike';
 
 function ToDo() {
   const [todos, setTodos] = useState([
@@ -96,6 +97,9 @@ function ToDo() {
           onColor="#EF476F"
           handleToggle={() => setValue(!value)}
         />
+      </div>
+      <div>
+        <LikeDislike/>
       </div>
     </div>
   );

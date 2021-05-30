@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Fragment } from 'react';
  
 import HomePage from './components/HomePage/HomePage';
 import FizzBuzz from './components/FizzBuzz/FizzBuzz';
@@ -10,12 +11,15 @@ import ClockDemo from './components/Anagram/ClockDemo';
 import MemoryGame from './components/MemoryGame/MemoryGame';
 import RollDice from './components/RollDice/RollDice';
 import DarkMode from './components/DarkMode/DarkMode';
+import CatImageGenerator from './components/Image/CatImageGenerator';
+import DisplayAllPosts from './components/Blog/DisplayAllPosts';
 import ToDo from './components/ToDo/ToDo';
 import NoPageFound from './components/NoPageFound';
 import NavBar from './components/NavBar/NavBar';
-import { Fragment } from 'react';
+
 import ScrollButton from './components/ScrollButton/ScrollButton';
 import { Content } from './components/ScrollButton/Styles';
+
 
  
 class App extends Component {
@@ -34,6 +38,8 @@ class App extends Component {
               <Route path="/memory_game" component={MemoryGame}/>
               <Route path="/roll_dice" component={RollDice}/> 
               <Route path="/dark_mode" component={DarkMode}/> 
+              <Route path="/image_generator" component={CatImageGenerator}/>
+              <Route path="/blog" component={DisplayAllPosts}/>
               <Route path="/todo" component={ToDo}/>
               <Route component={NoPageFound}/>
            </Switch>

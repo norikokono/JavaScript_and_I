@@ -48,7 +48,7 @@ class RollDice extends Component{
                       'RollDice-rolling' : ''
     const {die1, die2, rolling} = this.state
     return(
-      <die class="dice_body">
+      <div className="dice_body">
         <h2 style={{marginTop: 40, color: "Aqua"}}>Math.random()</h2>
         <div className='RollDice'>
           <div className='RollDice-container'>
@@ -63,8 +63,8 @@ class RollDice extends Component{
           <GuessTheNumber/>
           <CalculatorApp />
         </div>
-          <div class="wrapper_6">
-            <div class="r_one">
+          <div className="wrapper_6">
+            <div className="r_one">
               <pre>{`
 
   // Original JavaScript code by Chirp Internet: chirpinternet.eu
@@ -94,7 +94,7 @@ class RollDice extends Component{
 
               `}</pre>
             </div>
-            <div class="r_two">
+            <div className="r_two">
               <pre>{`
 
     const generateRandomNumber = (min, max) =>  {
@@ -105,7 +105,7 @@ class RollDice extends Component{
               `}</pre>
             </div>
           </div>
-      </die>
+      </div>
     )
   }
 }

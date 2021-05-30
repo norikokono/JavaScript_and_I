@@ -50,19 +50,19 @@ class BoxContainer extends Component{
   render(){ 
     return(
       <React.Fragment>
-        <h4>Find The Vowels<span class="vertical">Find The Vowels</span><span class="vertical">Find The Vowels</span></h4>
+        <h4>Find The Vowels<span className="vertical">Find The Vowels</span><span className="vertical">Find The Vowels</span></h4>
         <h5>Random RGB Color Generator<span style={{fontSize: 30}}><b>  &#9759;</b></span> Please Click!</h5>
         <div className='BoxContainer'>
           {this.state.colors.map(color => (
             
             // For each color make a box component
-            <Box color={color} changeColor={this.changeColor}/>
+            <Box color={color} changeColor={this.changeColor} key={color}/>
           ))}
         </div>
       
-        <div class="wrapper_4">
+        <div className="wrapper_4">
 
-          <div class="v_one">
+          <div className="v_one">
             <pre>{`
             
               const findVowels = str => {
@@ -81,7 +81,7 @@ class BoxContainer extends Component{
             `}</pre>
           </div>
 
-          <div class="v_two">
+          <div className="v_two">
             <pre>{`
 
               const findVowels = str => {

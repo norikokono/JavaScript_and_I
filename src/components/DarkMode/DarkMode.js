@@ -28,14 +28,14 @@ const DarkMode = () => {
   }, [darkMode]);
 
   return (
-    <body id="dark_mode">
+    <div id="dark_mode">
       <div>
-        <h2 class="dark_h2">Pyramid</h2>
+        <h2 className="dark_h2">Pyramid</h2>
         <h4>Toggle Dark Mode</h4>
-        <button onClick={() => setDarkMode(!darkMode)} class="dark_mode_button">Please Click!</button>
+        <button onClick={() => setDarkMode(!darkMode)} className="dark_mode_button">Please Click!</button>
       </div>
-      <div class="wrapper_7">
-        <div class="d_one">
+      <div className="wrapper_7">
+        <div className="d_one">
           <pre>{`
     
       function pyramid(n) {
@@ -53,7 +53,7 @@ const DarkMode = () => {
 
           `}</pre>
         </div>
-        <div class="d_two">
+        <div className="d_two">
           <pre>{`
 
             function createHalfPyramid (height) {
@@ -79,7 +79,7 @@ const DarkMode = () => {
             
           `}</pre>
         </div>
-        <div class="d_three">
+        <div className="d_three">
           <pre>{`
 
         function createHalfPyramid (height) {
@@ -109,7 +109,7 @@ const DarkMode = () => {
 
           `}</pre>
         </div>
-        <div class="d_four">
+        <div className="d_four">
           <pre>{`
 
         function createHalfPyramid (height) {
@@ -136,7 +136,7 @@ const DarkMode = () => {
           `}</pre>
         </div>
       </div>
-    </body>
+    </div>
   );
 };
 

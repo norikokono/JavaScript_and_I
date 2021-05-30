@@ -30,7 +30,7 @@ class GuessTheNumber extends Component{
       marginTop: "100px",
       marginBottom: 0,
       width: "400px",
-      height: "200px",
+      height: "250px",
       display: "block",
       marginLeft: "auto",
       marginRight: "auto",
@@ -39,7 +39,7 @@ class GuessTheNumber extends Component{
       <div>
         <form style={numberStyle}>
         <div>
-          <label htmlFor='term' autofocus>
+          <label htmlFor='term' autoFocus>
             Guess Number between 1 to 20
           </label>
         </div>

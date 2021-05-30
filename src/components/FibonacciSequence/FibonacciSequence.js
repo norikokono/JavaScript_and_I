@@ -21,17 +21,17 @@ class FibonacciSequence extends Component {
 
     
         // Slice function call
-        const items = list.slice(0, n).map(i => {
+        const items = list.slice(0, n).map((i, index) => {
         return <button style={{ margin: 10, color: "turquoise"}}
-            type="button" class="btn btn-light" onClick={this.sayHello}>{i}</button>
+            type="button" className="btn btn-light" onClick={this.sayHello} key={index}>{i}</button>
         })
         
     return (
         <div>
           <br />
           <h1 className="two_color_text">Fibonacci Sequence</h1>
-          <iframe title="fibonacci_sequence_gif" src="https://giphy.com/embed/l41JT8peYNw3H7uc8" width="480" height="297" frameBorder="0" class="giphy-embed" allowFullScreen>
-          </iframe><p><a href="https://giphy.com/gifs/spiral-retrocollage-golden-ratio-l41JT8peYNw3H7uc8" style={{color: "grey"}}>via GIPHY</a></p>
+          <iframe title="fibonacci_sequence_gif" src="https://giphy.com/embed/l41JT8peYNw3H7uc8" width="480" height="297" frameBorder="0" className="giphy-embed" allowFullScreen>
+          </iframe><p><a href="https://giphy.com/gifs/spiral-retrocollage-golden-ratio-l41JT8peYNw3H7uc8" target="_blank" rel="noopener noreferrer" style={{color: "grey"}}>via GIPHY</a></p>
         
             <div>
                 {items}
@@ -154,7 +154,7 @@ class FibonacciSequence extends Component {
                     `}</pre>
                 </div>
 
-                <div class="f_five">
+                <div className="f_five">
                     <pre>{`
                     
             function fib(n) {
@@ -167,7 +167,7 @@ class FibonacciSequence extends Component {
                     `}</pre>
                 </div>
 
-                <div class="f_six">
+                <div className="f_six">
                     <pre>{`
                     
             function fib(n) {

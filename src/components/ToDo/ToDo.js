@@ -73,9 +73,9 @@ function ToDo() {
         <img src={logo} className="logo" alt="logo" />
       </div>
       <form className="todo-list">
-        <ul class="todo_ul">
+        <ul className="todo_ul">
           {todos.map((todo, i) => (
-            <div className={`todo ${todo.isCompleted && 'todo-is-completed'}`}>
+            <div className={`todo ${todo.isCompleted && 'todo-is-completed'}`}  key={i}>
               <div className={'checkbox'} onClick={() => toggleTodoCompleteAtIndex(i)}>
                 {todo.isCompleted && (
                   <span>&#x2714;</span>

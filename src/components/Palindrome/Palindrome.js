@@ -6,15 +6,15 @@ const Palindrome = () => {
     return (
     <React.Fragment>
       <br />
-      <h1 class="text_shadow">Palindrome</h1>
-        <iframe title="computer-gif" src="https://giphy.com/embed/l0HlNaQ6gWfllcjDO" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-        <p><a href="https://giphy.com/gifs/90s-80s-illustration-l0HlNaQ6gWfllcjDO" style={{color: "grey"}}>via GIPHY</a></p>
+      <h1 className="text_shadow">Palindrome</h1>
+        <iframe title="computer-gif" src="https://giphy.com/embed/l0HlNaQ6gWfllcjDO" width="480" height="360" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+        <p><a href="https://giphy.com/gifs/90s-80s-illustration-l0HlNaQ6gWfllcjDO" target="_blank" rel="noopener noreferrer" style={{color: "grey"}}>via GIPHY</a></p>
 
-      <p class="text_shadow_2" style={{ marginBottom: 0 }}>palindrome('racecar') === true</p>
-      <p class="text_shadow_2" style={{ margin : 0, paddingTop: 0}}>palindrome('table') === false</p>
+      <p className="text_shadow_2" style={{ marginBottom: 0 }}>palindrome('racecar') === true</p>
+      <p className="text_shadow_2" style={{ margin : 0, paddingTop: 0}}>palindrome('table') === false</p>
 
-      <div class="wrapper_2">
-        <div class="p_one">
+      <div className="wrapper_2">
+        <div className="p_one">
             <pre>{`
 
       const palindrome = (str) => {
@@ -31,7 +31,7 @@ const Palindrome = () => {
 
         {/* \W removes all non-alphanumeric characters. the g flag for global search*/}
         {/* eslint-disable no-useless-escape */}
-        <div class="p_two">
+        <div className="p_two">
             <pre>{`
 
       function isPalindrome(str) {
@@ -51,7 +51,7 @@ const Palindrome = () => {
         </div>
         
         {/* eslint-disable no-useless-escape */}
-        <div class="p_three">
+        <div className="p_three">
           <pre>{`
 
   function palindrome(str) {
@@ -69,7 +69,7 @@ const Palindrome = () => {
           </div>
 
           {/* /[^A-Za-z0-9]/g; or const re = /[\W_]/g; removes all non-alphanumeric characters, the g flag for global search */}
-          <div class="p_four">
+          <div className="p_four">
             <pre>{`
 
           function palindrome(str) {
@@ -92,7 +92,7 @@ const Palindrome = () => {
 
         </div>
 
-        <div class="p_five">
+        <div className="p_five">
             <pre>{`
 
     function canRearrangeToPalindrome(str)
@@ -120,7 +120,7 @@ const Palindrome = () => {
 
         </div>
 
-        <div class="p_six">
+        <div className="p_six">
           <pre>{`
           
       function palindromeRearranging(inputString){

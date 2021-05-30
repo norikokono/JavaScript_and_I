@@ -17,9 +17,11 @@ const Navbar = () => {
         <li><Link to="/fibonacci_sequence">Fibonacci Sequence</Link></li>
         <li><Link to="/find_the_vowels">Find The Vowels</Link></li>
         <li><Link to="/clock">Anagram</Link></li>
-        <li><Link to="./dark_mode">Pyramid</Link></li>
+        <li><Link to="/dark_mode">Pyramid</Link></li>
         <li><Link to="/roll_dice">Math.random()</Link></li>
-        <li><Link to="./memory_game">Memory Game</Link></li>
+        <li><Link to="/memory_game">Memory Game</Link></li>
+        <li><Link to="/image_generator">Image Generator</Link></li>
+        <li><Link to="/blog">Blog</Link></li>
         <li><Link to="/todo">To Do</Link></li>
         <li><Link to="/contact">Contact</Link></li>
       </ul>

@@ -6,10 +6,10 @@ const FizzBuzz = () => {
     return (
         
 <div>
-            <br />
-            <h1 class="glow">FizzBuzz<span role="img" aria-label="tropical drink">🍹</span></h1>
-            <div class="wrapper">
-        <div class="one">
+        <br />
+        <h1 className="glow">FizzBuzz<span role="img" aria-label="tropical drink">🍹</span></h1>
+        <div className="wrapper">
+        <div className="one">
             <pre>{`
 
         function fizzBuzz() {
@@ -31,7 +31,7 @@ const FizzBuzz = () => {
            `}</pre>
         </div>
 
-        <div class="two">
+        <div className="two">
             <pre>{`
 
         const fizz = 3;
@@ -51,7 +51,7 @@ const FizzBuzz = () => {
             `}</pre>
         </div>
 
-        <div class="three">
+        <div className="three">
             <pre>{`
 
         function fizzBuzz(n) {
@@ -71,7 +71,7 @@ const FizzBuzz = () => {
             `}</pre>
         </div>
 
-        <div class="four">
+        <div className="four">
             <pre>{`
 
             for (let i = 1; i<= 100; i++){
@@ -89,7 +89,7 @@ const FizzBuzz = () => {
             `}</pre>    
         </div>
 
-        <div class="five">
+        <div className="five">
             <pre>{`
 
         const fizzBuzz = (num) => {
@@ -111,7 +111,7 @@ const FizzBuzz = () => {
             `}</pre>
         </div>
 
-        <div class="six">
+        <div className="six">
             <pre>{`
             
         for (let i =1; i < 100; i++) {
@@ -128,18 +128,18 @@ const FizzBuzz = () => {
     </div>
 
 {/* fizzBuzz bubble animation */}
-<section class="sticky">
-    <div class="bubbles">
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>        
+<section className="sticky">
+    <div className="bubbles">
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>        
     </div>
 </section>
 </div>

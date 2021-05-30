@@ -46,7 +46,7 @@ const MemoryGame = () => {
       </div>
       <footer className={classes.footer}>
         {/* Created by <a href="https://www.kazyamada.com/">Kaz Yamada</a> |{" "} */}
-        <a href="https://github.com/kaz-yamada/Card-Match-Game">Source</a>
+        <a href="https://github.com/kaz-yamada/Card-Match-Game" target="_blank" rel="noopener noreferrer" style={{color: "Cyan"}}>Link</a>
       </footer>
     </div>
   );

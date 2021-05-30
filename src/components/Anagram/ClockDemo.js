@@ -4,19 +4,18 @@ import './ClockDemo.css';
 
 export class ClockLiveDemo extends Component {   
   render() {  
-      return (  
-          <div>   
-            <body class="clock">
+      return (
+            <div className="clock">
                 <div className="clk">  
-                  {/* <Clock format={"HH:mm:ss"} interval={1000} ticking={true} />  */}
+                  {/* <Clock format={"HH:mm:ss"} interval={1000} ticking={true} /> */}
                 </div>  
 
-                <div class="rotate">
+                <div className="rotate">
                   <h2 style={{fontSize: 50}}>Anagram</h2>
                 </div>
              {/* eslint-disable no-useless-escape */}    
-            <div class="wrapper_5">
-                <div class="c_one">
+            <div className="wrapper_5">
+                <div className="c_one">
                   <pre>{`
                   
     const buildCharObject = str => {
@@ -48,7 +47,7 @@ export class ClockLiveDemo extends Component {
     
                   `}</pre>
                 </div>
-                <div class="c_two">
+                <div className="c_two">
                   <pre>{`
                                     
       const isAnagram = (str1, str2) => {
@@ -67,8 +66,7 @@ export class ClockLiveDemo extends Component {
                     `}</pre>
                 </div>
               </div>
-            </body>
-          </div>  
+            </div>
     )  
   }  
 }  

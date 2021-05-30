@@ -4,7 +4,7 @@ class KeyPadComponent extends Component {
 
     render() {
         return (
-            <div class="button">
+            <div className="calculator_button">
                 <button style={{width: 100, height: 70, backgroundColor:"grey"}} name="(" onClick={e => this.props.onClick(e.target.name)}>(</button>
                 <button style={{width: 100, height: 70, backgroundColor:"grey"}} name="CE" onClick={e => this.props.onClick(e.target.name)}>CE</button>
                 <button style={{width: 100, height: 70, backgroundColor:"grey"}} name=")" onClick={e => this.props.onClick(e.target.name)}>)</button>

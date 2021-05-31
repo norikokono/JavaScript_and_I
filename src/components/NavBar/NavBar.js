@@ -11,7 +11,7 @@ const Navbar = () => {
         <div></div>
       </button>
       <ul onClick={showSidebar}>
-        <li style={{paddingTop: 30}}><Link to="/">Home</Link></li>
+        <li style={{paddingTop: 15}}><Link to="/">Home</Link></li>
         <li><Link to="/fizz_buzz">Fizz Buzz</Link></li>
         <li><Link to="/palindrome">Palindrome</Link></li>
         <li><Link to="/fibonacci_sequence">Fibonacci Sequence</Link></li>
@@ -21,8 +21,9 @@ const Navbar = () => {
         <li><Link to="/roll_dice">Math.random()</Link></li>
         <li><Link to="/memory_game">Memory Game</Link></li>
         <li><Link to="/image_generator">Image Generator</Link></li>
-        <li><Link to="/blog">Blog</Link></li>
+        <li><Link to="/world_map">WorldMap</Link></li>
         <li><Link to="/todo">To Do</Link></li>
+        <li><Link to="/blog">Blog</Link></li>
         <li><Link to="/contact">Contact</Link></li>
       </ul>
     </nav>

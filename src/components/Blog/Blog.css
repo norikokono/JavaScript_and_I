@@ -1,3 +1,7 @@
+  #display_body, #new_body, #modify_body {
+    background: white;
+  }
+  
   textarea {
     height: 200px;
   }
@@ -49,10 +53,10 @@
     text-align: center;
   }
 
-  h1.post_h1 {
+  h2.post_h1 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 2.8rem;
+    font-size: 3.2rem;
   }
 
   h2.post_h2 {
@@ -87,9 +91,10 @@
 
   .post-content {
     min-height: 200px;
+    font-size: 1.6rem;
   }
 
-  .post-container p {
+  .post-container h3 {
     font-size: 1.6rem;
   }
 

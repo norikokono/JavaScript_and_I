@@ -99,40 +99,39 @@ const DisplayAllPosts = () => {
   }
   return (
     <React.Fragment>
-      {!allPosts.length ? (
-        <section className="no-post">
-          <h1 className="post_h1">No Post Found!</h1>
-          <h3 className="post_h3">There is nothing to see here.</h3>
-          <br />
-      <br />
-          <section className="button-wrapper">
-      <button onClick={toggleCreateNewPost} className="button">Create New</button>
-      </section>
-        </section>
-      ) : (
-      <div><h1 className="post_h1">All Posts</h1>
-        <section className="all-post">
-        {allPosts.map(eachPost => {
-          return (
-            <Post
-              id={eachPost.id}
-              key={eachPost.id}
-              title={eachPost.title}
-              content={eachPost.content}
-              editPost={editPost}
-              deletePost={deletePost}
-            />
-          );
-        })}
-      <section className="button-wrapper">
-      <button onClick={toggleCreateNewPost} className="blog_button">Create New</button>
-      </section>
-        </section>
-        
-        </div>
-      )}
-
-      
+      <div id="display_body">
+        {!allPosts.length ? (
+          <section className="no-post">
+            <h2 className="post_h1">No Post Found!</h2>
+            <h3 className="post_h3">There is nothing to see here.</h3>
+            <br />
+            <br />
+            <section className="button-wrapper">
+              <button onClick={toggleCreateNewPost} className="blog_button">Create New</button>
+            </section>
+          </section>
+        ) : (
+          <div><h2 className="post_h1">All Posts</h2>
+              <section className="all-post">
+                {allPosts.map(eachPost => {
+                  return (
+                    <Post
+                      id={eachPost.id}
+                      key={eachPost.id}
+                      title={eachPost.title}
+                      content={eachPost.content}
+                      editPost={editPost}
+                      deletePost={deletePost}
+                    />
+                  );
+                })}
+              <section className="button-wrapper">
+              <button onClick={toggleCreateNewPost} className="blog_button">Create New</button>
+              </section>
+            </section>      
+          </div>
+        )}
+      </div>
     </React.Fragment>
   );
 };

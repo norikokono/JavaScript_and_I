@@ -12,9 +12,9 @@ const NumberResult = ({ term , secretNum }) => {
     }
     /* https://stackoverflow.com/questions/55788015/isnan-and-typeof-not-working-with-react
     You likely want to use !isNaN(whateverVariable) here. Not not a number is a number. – AryanJ-NYC */
-    else if(!isNaN(secretNum)) {
-      numberResult = 'Please enter the number'
-    }
+    // else if(!isNaN(secretNum)) {
+    //   numberResult = 'Please enter the number'
+    // }
     else{
       numberResult = 'Yippee, guessed it!'
     }

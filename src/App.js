@@ -12,9 +12,10 @@ import MemoryGame from './components/MemoryGame/MemoryGame';
 import RollDice from './components/RollDice/RollDice';
 import DarkMode from './components/DarkMode/DarkMode';
 import CatImageGenerator from './components/Image/CatImageGenerator';
-import WorldMap from './components/WorldMap/WorldMap';
-import ToDo from './components/ToDo/ToDo';
+import MealSearch from './components/MealSearch/MealSearch';
+// import WorldMap from './components/WorldMap/WorldMap';
 import DisplayAllPosts from './components/Blog/DisplayAllPosts';
+import ToDo from './components/ToDo/ToDo';
 import NoPageFound from './components/NoPageFound';
 import NavBar from './components/NavBar/NavBar';
 
@@ -41,9 +42,10 @@ class App extends Component {
               <Route path="/roll_dice" component={RollDice}/> 
               <Route path="/dark_mode" component={DarkMode}/> 
               <Route path="/image_generator" component={CatImageGenerator}/>
-              <Route path="/world_map" component={WorldMap}/>
-              <Route path="/todo" component={ToDo}/>
+              <Route path="/meal_search" component={MealSearch}/>
+              {/* <Route path="/world_map" component={WorldMap}/> */}
               <Route path="/blog" component={DisplayAllPosts}/>
+              <Route path="/todo" component={ToDo}/>
               <Route component={NoPageFound}/>
            </Switch>
            <Fragment>

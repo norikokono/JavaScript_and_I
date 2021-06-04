@@ -4,8 +4,8 @@ const Post = ({ title, content, editPost, id, deletePost }) => {
   return (
     <React.Fragment>
       <section className="post-container">
-        <h2 class="post_h2">{title}</h2>
-        <p className="post-content"> {content}</p>
+        <h2 className="post_h2">{title}</h2>
+        <h3 className="post-content"> {content}</h3>
         <button className="blog_button" onClick={() => editPost(id)}>Edit</button>
         <button className="blog_button" onClick={() => deletePost(id)}>Delete</button>
       </section>

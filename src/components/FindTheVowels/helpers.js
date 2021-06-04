@@ -1,4 +1,5 @@
 // Method return a random number from 0 to 255 
+
 const rgbValue = () => {
     return Math.floor(Math.random() * 256)
   }

@@ -35,8 +35,8 @@ const MemoryGame = () => {
 
   return (
     <div className={classes.root}>
-      <header className={classes.header}>
-        <h1>Card Match Game</h1>
+      <header className={classes.header} style={{paddingTop: 25}}>
+        <h1 style={{color: "SteelBlue"}}>Card Match Game</h1>
       </header>
       <div>
         <GameBoard gameStatus={gameStatus} onGameUpdate={handleStatusUpdate} />
@@ -46,7 +46,7 @@ const MemoryGame = () => {
       </div>
       <footer className={classes.footer}>
         {/* Created by <a href="https://www.kazyamada.com/">Kaz Yamada</a> |{" "} */}
-        <a href="https://github.com/kaz-yamada/Card-Match-Game" target="_blank" rel="noopener noreferrer" style={{color: "Cyan"}}>Link</a>
+        <a href="https://github.com/kaz-yamada/Card-Match-Game" target="_blank" rel="noopener noreferrer" style={{color: "LightSkyBlue"}}>Source Link</a>
       </footer>
     </div>
   );

@@ -45,6 +45,7 @@
 
   span.vertical {
     writing-mode: vertical-rl;
+    padding-top: 30px;
   }
 
   h4 {

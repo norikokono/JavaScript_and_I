@@ -10,7 +10,7 @@ const useStyles = createUseStyles({
     left: "25%",
     width: "50%",
     height: 200,
-    background: "aliceblue",
+    background: "AliceBlue",
     justifyItems: "center",
     alignItems: "center",
   },

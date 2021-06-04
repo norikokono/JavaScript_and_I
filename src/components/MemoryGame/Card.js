@@ -10,7 +10,7 @@ const useStyles = createUseStyles({
     borderRadius: 5,
     height: CARD_SIZES.height,
     width: CARD_SIZES.width,
-    border: "black 5px solid",
+    border: "SlateGrey 5px solid",
     position: "relative",
     transition: "all 0.4s linear",
     transformStyle: "preserve-3d",
@@ -21,14 +21,14 @@ const useStyles = createUseStyles({
     },
   },
   selected: {
-    borderColor: "blue",
+    borderColor: "PowderBlue",
     transform: "rotateY(180deg)",
   },
   front: {
     transform: "rotateY(180deg)",
   },
   matched: {
-    borderColor: "green",
+    borderColor: "Aqua",
     transform: "rotateY(180deg)",
   },
   back: {

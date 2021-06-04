@@ -207,7 +207,7 @@ const GameBoard = ({ gameStatus, onGameUpdate }) => {
 
   return (
     <React.Fragment>
-      <div data-testid="flip-counter">Flips: {flipCounter.current}</div>
+      <div data-testid="flip-counter" style={{color:"SkyBlue"}}>Flips: {flipCounter.current}</div>
       <div className={classes.board}>
         {Object.entries(deck).map(([key, value]) => {
           return (

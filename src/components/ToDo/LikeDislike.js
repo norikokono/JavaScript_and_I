@@ -22,9 +22,9 @@ class LikeDislike extends React.Component {
       const label = this.state.liked ? 'Unlike' : 'Like'
       return (
         <div className="customContainer">
-          <button className="btn btn-info" onClick={this.handleClick} style={{marginTop: 30}}>
+          <button className="btn btn-info" onClick={this.handleClick} style={{marginTop: 30, color: "white"}}>
             {label}</button>
-          <p>
+          <p style={{color: "SteelBlue"}}>
             You {text} this. Click to toggle.
           </p>
         </div>

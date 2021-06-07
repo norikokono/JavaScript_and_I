@@ -16,7 +16,7 @@ import NoConstructorClass from './NoConstructorClass';
 import NoConstructorClass2 from './NoConstructorClass2';
 import RadioButtons from './RadioButtons';
 import Cache from './Cache';
-import ExportData from './ExportData';
+// import ExportData from './ExportData';
 import Form from './Form';
 import BoxList from './BoxList';
 
@@ -123,7 +123,7 @@ function ToDo() {
         <NoConstructorClass2 />
         <RadioButtons />
         <Cache />
-        <ExportData />
+        {/* <ExportData /> */}
         <Form />
         <BoxList />
       </div>

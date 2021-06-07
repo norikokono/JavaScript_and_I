@@ -20,7 +20,7 @@ class Like extends Component {
     return (
       <div className="container" >
         <center>
-          <p style={{color: "Cyan"}}>Click on the Like Button</p>
+          <p style={{color: "Cyan", marginBottom: 5}}>Click on the Like Button <FontAwesomeIcon icon={faHeart} /></p>
           <div
             className="container"
             style={{ border: "1px solid grey", width: "15%" , color: "red"}}

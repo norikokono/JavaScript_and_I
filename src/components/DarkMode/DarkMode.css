@@ -14,13 +14,14 @@ div#dark_mode {
   color:rgb(238, 165, 81);
   text-shadow: rgb(36, 137, 231) 1px 0 10px;
   padding-bottom: 50px;
+  font-size: 45px;
 }
 
 .dark_mode_button {
   background: linear-gradient(45deg, rgb(209, 146, 51), rgb(108, 177, 223));
   width: 200px;
-  height: 100px;
-  border-radius: 20px;
+  height: 80px;
+  border-radius: 7px;
   margin-top:20px;
   font-size: 25px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

@@ -21,10 +21,11 @@ const Navbar = () => {
         <li><Link to="/roll_dice">Math.random()</Link></li>
         <li><Link to="/memory_game">Memory Game</Link></li>
         <li><Link to="/image_generator">Image Generator</Link></li>
-        <li><Link to="/meal_search">Meal Search</Link></li>
+        <li><Link to="/meal_search">Meal Search</Link></li>     
         {/* <li><Link to="/world_map">WorldMap</Link></li> */}
         <li><Link to="/blog">Blog</Link></li>
         <li><Link to="/todo">To Do</Link></li>
+        <li><Link to="/quotes_generator">Quotes Generator</Link></li>
         <li><Link to="/contact">Contact</Link></li>
       </ul>
     </nav>
@@ -32,4 +33,3 @@ const Navbar = () => {
 }
  
 export default Navbar;
-

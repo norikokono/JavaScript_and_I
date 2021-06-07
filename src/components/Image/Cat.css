@@ -24,9 +24,11 @@
 }
 
 .cat_btn {
-    background: orange;
+    background: linear-gradient(rgb(245, 219, 149), orange);
     border: none;
     color: white;
     padding: 1rem;
     margin: 1rem;
+    border-radius: 5px;
+    font-size: 30px;
 }

@@ -32,6 +32,7 @@
     color: #ffffff;
     cursor: pointer;
     border: none;
+    border-radius: 5px;
   }
 
   .create-post,

@@ -1,6 +1,6 @@
 import React from 'react';
  
-const NoPageFound= () => {
+const NoPageFound = () => {
     return (
        <div>
           <br />

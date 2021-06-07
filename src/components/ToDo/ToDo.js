@@ -6,6 +6,19 @@ import './ToDo.css';
 import Switch from "./Switch";
 import "./Switch.css";
 import LikeDislike from './LikeDislike';
+import Like from './Like';
+import ShoppingCartButton from './ShoppingCartButton';
+import UploadButton from './UploadButton';
+import ToastNotification from './ToastNotification';
+import UseMemoHook from './UseMemoHook';
+import StateProps from './StateProps';
+import NoConstructorClass from './NoConstructorClass';
+import NoConstructorClass2 from './NoConstructorClass2';
+import RadioButtons from './RadioButtons';
+import Cache from './Cache';
+import ExportData from './ExportData';
+import Form from './Form';
+import BoxList from './BoxList';
 
 function ToDo() {
   const [todos, setTodos] = useState([
@@ -99,7 +112,20 @@ function ToDo() {
         />
       </div>
       <div>
-        <LikeDislike/>
+        <LikeDislike />
+        <Like />
+        <ShoppingCartButton />
+        <UploadButton />
+        <ToastNotification />
+        <UseMemoHook />
+        <StateProps />
+        <NoConstructorClass />
+        <NoConstructorClass2 />
+        <RadioButtons />
+        <Cache />
+        <ExportData />
+        <Form />
+        <BoxList />
       </div>
     </div>
   );

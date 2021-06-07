@@ -16,6 +16,7 @@ import MealSearch from './components/MealSearch/MealSearch';
 // import WorldMap from './components/WorldMap/WorldMap';
 import DisplayAllPosts from './components/Blog/DisplayAllPosts';
 import ToDo from './components/ToDo/ToDo';
+import QuotesGenerator from './components/QuotesGenerator/QuotesGenerator';
 import NoPageFound from './components/NoPageFound';
 import NavBar from './components/NavBar/NavBar';
 
@@ -46,6 +47,7 @@ class App extends Component {
               {/* <Route path="/world_map" component={WorldMap}/> */}
               <Route path="/blog" component={DisplayAllPosts}/>
               <Route path="/todo" component={ToDo}/>
+              <Route path="/quotes_generator" component={QuotesGenerator}/>
               <Route component={NoPageFound}/>
            </Switch>
            <Fragment>

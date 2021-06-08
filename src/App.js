@@ -20,7 +20,6 @@ import QuotesGenerator from './components/QuotesGenerator/QuotesGenerator';
 import NoPageFound from './components/NoPageFound';
 import NavBar from './components/NavBar/NavBar';
 
-
 import ScrollButton from './components/ScrollButton/ScrollButton';
 import { Content } from './components/ScrollButton/Styles';
 

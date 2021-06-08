@@ -20,7 +20,7 @@ class NoConstructorClass2 extends Component {
   
   renderContent(){
     return (
-      <ul style={{textAlign: "center",  listStyleType: "none"}}>
+      <ul style={{textAlign: "center",  listStyleType: "none", padding: 0}}>
         {this.props.courseContent.map(content => (
           <li>{content}</li>
         ))}

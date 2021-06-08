@@ -77,7 +77,7 @@ class NewBoxForm extends Component{
                 />
                 </div>
                 <div>
-                <button style={{backgroundColor: "Turquoise", color: "white", border: "none", borderRadius: 3, marginTop: 10, marginBottom: 60}}>Add a new Box!</button>
+                <button style={{backgroundColor: "Turquoise", color: "white", border: "none", borderRadius: 3, marginTop: 10, marginBottom: 80}}>Add a new Box!</button>
                 </div>
             </form>
         </React.StrictMode>

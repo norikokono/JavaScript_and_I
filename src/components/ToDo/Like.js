@@ -23,7 +23,7 @@ class Like extends Component {
           <p style={{color: "Cyan", marginBottom: 5}}>Click on the Like Button <FontAwesomeIcon icon={faHeart} /></p>
           <div
             className="container"
-            style={{ border: "1px solid grey", width: "15%" , color: "red"}}
+            style={{ border: "1px solid grey", width: "10%" , color: "red", borderRadius: 25}}
             onClick={() => this.toggle()}
           >
             {this.state.liked === false ? (

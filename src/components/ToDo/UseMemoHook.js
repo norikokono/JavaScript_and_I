@@ -27,7 +27,7 @@ function UseMemoHook() {
     <div className="UseMemoHook">
       <h4 style={{marginTop: 50}}>useMemo Hook</h4>
       <input type="number" placeholder="Enter a number"
-          value={number} onChange={onChangeHandler} style={{backgroundColor: "Cornflowerblue", color: "white", width: 600}}>
+          value={number} onChange={onChangeHandler} style={{backgroundColor: "AliceBlue", color: "LightSkyBlue", width: 300}}>
       </input>
         <div style={{marginBottom: 20, color: "CadetBlue"}}>OUTPUT: {squaredNum}</div>
       <button onClick={counterHandlerPlus} style={{background: "LightBlue", color: "white", width: 200, borderRadius: 7, border: "none"}}>Counter ++</button><br/>

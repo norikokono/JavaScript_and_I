@@ -19,6 +19,17 @@ import Cache from './Cache';
 // import ExportData from './ExportData';
 import Form from './Form';
 import BoxList from './BoxList';
+import UseStateNumber from './UseStateNumber';
+import UseStateForm from './UseStateForm';
+import CustomFilter from './CustomFilter';
+import Parent from './Parent';
+import ReadMoreContent from './ReadMoreContent';
+import ShowOrHidePassword from './ShowOrHidePassword';
+import UseRefHook from './UseRefHook';
+import Hangman from './Hangman';
+import Recharts from './Recharts';
+import ChipComponent from './ChipComponent';
+import TooltipComponent from './TooltipComponent';
 
 function ToDo() {
   const [todos, setTodos] = useState([
@@ -126,6 +137,17 @@ function ToDo() {
         {/* <ExportData /> */}
         <Form />
         <BoxList />
+        <UseStateNumber />
+        <UseStateForm />
+        <CustomFilter />
+        <Parent />
+        <ReadMoreContent />
+        <ShowOrHidePassword />
+        <UseRefHook />
+        <Hangman />
+        <Recharts />
+        <ChipComponent />
+        <TooltipComponent />
       </div>
     </div>
   );

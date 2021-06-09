@@ -25,6 +25,7 @@ const Navbar = () => {
         {/* <li><Link to="/world_map">WorldMap</Link></li> */}
         <li><Link to="/blog">Blog</Link></li>
         <li><Link to="/todo">To Do</Link></li>
+        <li><Link to="/dark_mode_2">Dark Mode</Link></li>
         <li><Link to="/quotes_generator">Quotes Generator</Link></li>
         <li><Link to="/contact">Contact</Link></li>
       </ul>

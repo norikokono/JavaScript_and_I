@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import {ThemeProvider} from "styled-components";
 import  {useDarkMode} from "./useDarkMode"
-import { GlobalStyles } from "./Globalstyle";
+import { GlobalStyles } from "./GlobalStyle";
 import { lightTheme, darkTheme } from "./Themes"
 import Toggle from "./Toggler"
 import "./DarkMode.css";

@@ -60,4 +60,36 @@
   }
 
 
+  #simple_menu {
+    font-size: 25px;
+    text-decoration: none;
+    /* The material design spec for buttons specifies that the text should be uppercase,
+     but you can easily override its CSS property: */
+    text-transform: none;
+    color: rgb(170, 152, 47);
+  }
 
+  .nav_link {
+    color: rgb(196, 114, 38);
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  .nav_link:visited {
+    color: rgb(37, 156, 185);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .nav_link:hover {
+    color: rgb(41, 98, 112);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .nav_link:active {
+    color: rgb(240, 226, 28);
+    background-color: transparent;
+    text-decoration: underline;
+  }

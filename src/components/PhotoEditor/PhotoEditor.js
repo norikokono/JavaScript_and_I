@@ -102,7 +102,7 @@ function PhotoEditor() {
 
   return (
     <div className="photo_editor_container">
-      <div className="photo_editor_main-image" style={getImageStyle()} />
+      <div className="photo_editor_main-image" style={getImageStyle()} rel="noopener noreferrer nofollow" target="_blank"/>
       <div className="photo_editor_sidebar">
         {options.map((option, index) => {
             return (

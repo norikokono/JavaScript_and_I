@@ -46,6 +46,8 @@ div.wrapper_5 {
   font-weight: bold;
   font-size: 22px;
   text-shadow: 0.5px 0.5px rgb(58, 109, 141);
+  max-width: 100%;
+  height: "auto";
 }
 
 div.wrapper_5 > div { 

@@ -4,7 +4,7 @@
 	justify-content: center;
 	align-items: center;
 	flex:1;
-	width: 1500px;
+	max-width: 1500px;
 	height: auto;
 	margin-left: 300px;
 	margin-top: 10px;
@@ -20,6 +20,8 @@
     margin-left: 290px;;
     color:rgb(27, 29, 29);
     transition: transform .2s; /* Animation */
+    max-width: 100%;
+    height: "auto";
   }
 
   .wrapper_4 > div {

@@ -59,7 +59,7 @@ class Form extends Component{
               placeholder='Email' 
               value = {this.state.email}
               onChange={this.handleChange}
-              style={{width: 700}}
+              style={{maxWidth: 700}}
             />
           </div>
           <div style={styles}>
@@ -69,7 +69,7 @@ class Form extends Component{
               placeholder='Name'
               value={this.state.name}
               onChange={this.handleChange}
-              style={{width: 700}}
+              style={{maxWidth: 700}}
             />
           </div>
           <div style={styles}>
@@ -79,7 +79,7 @@ class Form extends Component{
               placeholder='Age'
               value={this.state.age}
               onChange={this.handleChange}
-              style={{width: 700}}
+              style={{maxWidth: 700}}
             />
           </div>
           <div style={styles}>
@@ -89,7 +89,7 @@ class Form extends Component{
               placeholder='Address'
               value={this.state.address}
               onChange={this.handleChange}
-              style={{width: 700}}
+              style={{maxWidth: 700}}
             />
           </div>
           <div style={styles}>
@@ -99,7 +99,7 @@ class Form extends Component{
               placeholder='Phone Number'
               value={this.state.phoneNo}
               onChange={this.handleChange}
-              style={{width: 700}}
+              style={{maxWidth: 700}}
             />
           </div>
           <div>

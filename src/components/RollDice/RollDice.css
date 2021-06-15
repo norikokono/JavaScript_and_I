@@ -2,6 +2,8 @@
     display: flex;
     flex-flow: column nowrap;
     min-height: 100vh;
+    max-width: 100%;
+    height: "auto";
   }
     
   /* Shows each dice in one row */
@@ -44,6 +46,8 @@
     padding: 30px;
     margin-left: 300px;
     font-size: 23px;
+    max-width: 100%;
+    height: "auto";
   }
 
   .wrapper_6 > div {

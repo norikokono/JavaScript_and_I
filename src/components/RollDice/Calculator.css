@@ -1,7 +1,7 @@
 .result {
     height: 70px;
     background-color: rgb(241, 232, 232);
-    width: 500px;
+    max-width: 500px;
     padding: 30px;
   }
   
@@ -20,6 +20,6 @@
   .calculator_button {
     display: block;
     background-color: rgb(206, 194, 194);
-    width: 500px;
+    max-width: 500px;
     padding-bottom: 20px;;
   }

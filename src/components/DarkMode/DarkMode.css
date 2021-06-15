@@ -39,6 +39,8 @@ div#dark_mode {
     padding: 30px;
     margin-left: 280px;
     font-size: 23px;
+    max-width: 100%;
+    height: "auto";
   }
 
   .wrapper_7 > div {

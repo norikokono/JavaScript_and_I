@@ -4,8 +4,10 @@
     grid-auto-rows: minmax(80px, auto);
     grid-gap: 30px;
     padding: 10px;
-    margin-left: 290px;;
+    margin-left: 290px;
     color:rgb(21, 22, 22);
+    max-width: 100%;
+    height: "auto";
   }
 
   .wrapper_3 > div {

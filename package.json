@@ -24,7 +24,7 @@
     "fast-glob": "^3.2.5",
     "glob": "^7.1.7",
     "glob-parent": "^6.0.0",
-    "immer": "^9.0.2",
+    "immer": "^9.0.6",
     "json-parse-better-errors": "^1.0.2",
     "merge": "^2.1.1",
     "merge2": "^1.4.1",
